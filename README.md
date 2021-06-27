@@ -7,6 +7,6 @@ I have responsive design that changes when changing the size of the display.
 as well links to future projects 
 
 and a little about me. 
-Here is deployment on github https://pepsi1397.github.io/CodeRefactor/
+Here is deployment on github pepsi1397.github.io/portfolio/
 
-![screenshot](/assets/image/screenshot.png)
+![screenshot](assets\image\screenshot.png)
