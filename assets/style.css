@@ -1,0 +1,219 @@
+/* General CSS  */
+a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+a h3 {
+  margin: 0 0;
+  border: 2px solid blanchedalmond;
+  background-color: #2a607c;
+  color: white;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  position: absolute;
+  bottom:10px;
+  left: 5px;
+  /* z-index: 2; */
+
+}
+.indent {
+  margin-left: 150px;
+}
+.title {
+  
+  align-items: center;
+  padding: 5px;
+  float: left;
+  margin-left: 1%;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+/* General CSS */
+
+/* start of header  */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  border-bottom: 2px solid black;
+    /* will work on this later  */
+    /* position: fixed;
+    top: 0; */
+}
+
+header h1 {
+    
+  display: inline-block;
+  font-size: 48px;
+    
+}
+#aboutMe {
+  background-color: #2a607c;
+}
+nav {  
+  height: auto;
+  width: fit-content;
+  justify-content: right;
+  font-size: 30px;  
+}
+nav ul {
+  justify-content: left;
+  list-style-type: none;
+}
+nav li {
+  
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid white;
+}
+/* end of header */
+
+
+/* section and profile  */
+#myWork {
+  background-color: #2a607c;
+ }
+section {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(138, 114, 114);
+  border-left: 4px solid black;
+}
+
+section p {
+  /* display: inline-block; */
+  margin-left: 20px;
+  height: auto;
+  width: 60%;
+  background-color: rgb(245, 208, 208);
+  padding: 2px;
+  border: 5px solid black;
+  font-size: 25px ;
+}
+
+section .profile{  
+  
+  width: fit-content;
+  padding: 20px;
+  float: right;
+  background-color: rgb(245, 208, 208);
+  
+  
+}
+
+.profile img{
+  width: 300px;
+  height: auto;
+  justify-content: flex-end;
+  
+}
+
+/* section and profile end  */
+
+/* Grid container  */
+
+.grid-container {
+  display: grid;
+  border-left: 4px solid black;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto auto;
+  background-color: rgb(138, 114, 114);
+  padding: 10px;
+  grid-gap: 20px;
+  grid-auto-flow: column;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 100%;
+  margin: 0 auto ;
+  /* padding: 10px; */
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+  /* position: relative;   */
+
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.144);
+  color: #fff;
+  cursor: pointer;
+}
+
+.img {
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* Grid ending */
+/* footer */
+footer {
+  border-top: 2px solid black;
+
+}
+.contact {
+    background-color: #2a607c;
+    color: white;
+    padding-top: 15px;     
+    font-size: 20px;
+    list-style-type: none;
+
+    justify-content: right;
+    font-size: 30px;  
+}
+
+.contact ul {
+  justify-content: left;
+  list-style-type: none;
+}
+.contact li {
+  
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid white;
+}
+/* footer end */
+@media screen and (max-width: 1470px) {
+  
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    height: auto;
+    margin: auto;
+    }
+  section p {
+    font-size: 30px;
+    margin: 0 15%;
+  }  
+  nav {
+    justify-content: left;
+  }
+  .indent {
+    margin-left: 10%;
+  }
+  .profile {
+    margin: 2% 25%;  
+    }
+  .profile img{  
+    width: 300px;
+    margin: auto;    
+  }
+  .title {
+    margin-left: 0;
+    padding: 5px;
+    font-size: 40px;
+  }
+}
+/* Week one positioning  */
