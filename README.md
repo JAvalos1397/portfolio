@@ -7,4 +7,4 @@ I have responsive design that changes when changing the size of the display.
 as well links to future projects 
 
 and a little about me. 
-![Screenshot](./assets/image/screenshot.png)
+![Screenshot](/assets/image/screenshot.png)
