@@ -8,4 +8,4 @@ as well links to future projects
 
 and a little about me. 
 Here is deployment on github pepsi1397.github.io/portfolio/
-![screenshot](asset\image\screenshot.png)
+![screenshot](assets\image\screenshot.png)
