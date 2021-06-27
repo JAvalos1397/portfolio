@@ -98,6 +98,7 @@ section p {
   padding: 2px;
   border: 5px solid black;
   font-size: 25px ;
+  line-height: 40px;
 }
 
 section .profile{  
@@ -162,20 +163,32 @@ footer {
   border-top: 2px solid black;
 
 }
+#footer_title {
+  /* align-items: center;
+  /* padding: 5px;
+  margin-left: 1%; */ */
+  background-color: #2a607c;
+  color: #ffffff;
+  position: absolute;
+  /* float: left; */
+}
 .contact {
     background-color: #2a607c;
     color: white;
     padding-top: 15px;     
     font-size: 20px;
     list-style-type: none;
-
+    margin-left: auto;
     justify-content: right;
     font-size: 30px;  
+    
 }
 
+
 .contact ul {
-  justify-content: left;
+  padding: 1%;
   list-style-type: none;
+  margin-left: 25%;
 }
 .contact li {
   
